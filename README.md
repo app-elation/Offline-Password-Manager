@@ -58,14 +58,14 @@ When authenticating with fingerprint, Key-b together with the persisted IV-b, is
 ![](https://github.com/app-elation/Offline-Password-Manager/blob/master/misc/scheme.png)
 
 ## //TODO:
-Create a help page with instructions
-Improve error message for CSV imports from invalid file types
-Add key-listener to account listing page, to auto-search when you type (for devices with hardware keyboards)
-Add alphabetical index to account listing page
-Fix application heading font size in landscape mode
-Possibly add web-view for opening account pages, inject username & password
-Possibly add service to auto-clear clipboard
-Make auto-logout time configurable
+* Create a help page with instructions
+* Improve error message for CSV imports from invalid file types
+* Add key-listener to account listing page, to auto-search when you type (for devices with hardware keyboards)
+* Add alphabetical index to account listing page
+* Fix application heading font size in landscape mode
+* Possibly add web-view for opening account pages, inject username & password
+* Possibly add service to auto-clear clipboard
+* Make auto-logout time configurable
 
 ## Support
 This app was designed to be as straight forward as possible. Most of the settings options have generous summary text to explain.
