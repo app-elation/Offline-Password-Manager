@@ -1,0 +1,28 @@
+This product includes software developed at The Apache Software Foundation (http://www.apache.org/)
+
+
+This product includes software from Apache Commons Lang, under the Apache License 2.0 (see: CryptoUtil.randomChars())
+http://www.apache.org/licenses/LICENSE-2.0
+
+
+This product includes software from Oleksandr Melnykov
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR 
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+https://opensource.org/licenses/MIT
+Copyright (c) 2014 Oleksandr Melnykov
+
+
+This product includes software from Square, under the Apache License 2.0 (https://github.com/square/dagger)
+http://www.apache.org/licenses/LICENSE-2.0
+
+
+This product includes a Vera font from Bitstream, under the Apache License 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.
+
+
+This product includes software, resources and adaptations from The Android Open Source Project, under the Apache License 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+Copyright (C) 2015 The Android Open Source Project

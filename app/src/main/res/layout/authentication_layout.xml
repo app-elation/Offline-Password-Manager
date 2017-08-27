@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:layout_marginBottom="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:theme="@android:style/Widget.Material.Light.ActionBar"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:id="@+id/textView"
+            android:textColor="@color/colorPrimaryTextInverse"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/fingerprintIcon"
+            android:src="@drawable/orangle_fingerprint"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/lockIcon"
+            android:src="@drawable/orangle_lock"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/masterPasswordSet"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/masterPassword"
+            android:hint="Master password"
+            android:layout_weight="1"
+            android:imeOptions="actionGo"
+            android:maxLength="100"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text=">"
+            android:id="@+id/ok"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Message..."
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpTextScollView"
+        android:scrollIndicators="right"
+        android:background="@color/colorWindowBackground_light"
+        android:fadeScrollbars="false"
+        android:paddingRight="2dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/helpText"
+                android:singleLine="false"
+                android:textColor="@android:color/black"
+                android:text="@string/important_info" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="@string/action_dont_show_help"
+                android:id="@+id/dontShowAgain"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skipFingerprint"
+        android:text="@string/label_skip_fingerprint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/link"
+        android:visibility="gone"
+        android:layout_gravity="bottom" />
+</FrameLayout>

@@ -1,0 +1,200 @@
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:icon="@drawable/ic_class_black_24dp"
+        android:title="@string/pref_header_categories">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="category_shopping_enabled"
+            android:title="@string/pref_title_enable_shopping"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="category_social_enabled"
+            android:title="@string/pref_title_enable_social"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="category_banking_enabled"
+            android:title="@string/pref_title_enable_banking"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="custom_category_0_enabled"
+            android:title="@string/pref_title_enable_custom_category_0"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="custom_category_1_enabled"
+            android:title="@string/pref_title_enable_custom_category_1"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="custom_category_2_enabled"
+            android:title="@string/pref_title_enable_custom_category_2"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="custom_category_3_enabled"
+            android:title="@string/pref_title_enable_custom_category_3"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="custom_category_4_enabled"
+            android:title="@string/pref_title_enable_custom_category_4"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="custom_category_5_enabled"
+            android:title="@string/pref_title_enable_custom_category_5"/>
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_navigate_next_black_24dp"
+            android:title="@string/pref_title_custom_category_names">
+
+            <EditTextPreference
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="custom_category_0"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/custom_category_0" />
+
+            <EditTextPreference
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="custom_category_1"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/custom_category_1" />
+
+            <EditTextPreference
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="custom_category_2"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/custom_category_2" />
+
+            <EditTextPreference
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="custom_category_3"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/custom_category_3" />
+
+            <EditTextPreference
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="custom_category_4"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/custom_category_4" />
+
+            <EditTextPreference
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="custom_category_5"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/custom_category_5" />
+
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/import_export"
+        android:title="@string/pref_title_backup_restore_import_export">
+
+        <Preference
+            android:key="action_pref_backup"
+            android:title="@string/pref_title_backup"
+            android:summary="@string/pref_summary_backup" />
+        <Preference
+            android:key="action_pref_restore"
+            android:title="@string/pref_title_restore"
+            android:summary="@string/pref_summary_restore" />
+        <Preference
+            android:key="action_pref_export"
+            android:title="@string/pref_title_export"
+            android:summary="@string/pref_summary_export" />
+        <Preference
+            android:key="action_pref_import"
+            android:title="@string/pref_title_import"
+            android:summary="@string/pref_summary_import" />
+        <Preference
+            android:key="action_pref_import_gen"
+            android:title="@string/pref_title_import_gen"
+            android:summary="@string/pref_summary_import_gen" />
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="@string/pref_title_clipboard">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="clipboard_enabled"
+            android:title="@string/pref_title_enable_clipboard"
+            android:summary="@string/pref_summary_enable_clipboard"/>
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/pref_title_other">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_help"
+            android:title="@string/pref_title_show_help"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="use_fingeprint"
+            android:title="@string/pref_title_fingerprint_auth"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="auto_logout"
+            android:summary="@string/pref_summary_auto_logout"
+            android:title="@string/pref_title_auto_logout"/>
+
+        <EditTextPreference
+            android:defaultValue="15"
+            android:summary="-"
+            android:inputType="number"
+            android:key="psw_length"
+            android:selectAllOnFocus="true"
+            android:title="@string/pref_title_psw_length" />
+
+        <EditTextPreference
+            android:capitalize="none"
+            android:defaultValue=""
+            android:summary="@string/pref_summary_default_username"
+            android:inputType="textCapWords"
+            android:key="default_username"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_default_username" />
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_navigate_next_black_24dp"
+            android:title="@string/pref_title1_delete_everything"
+            android:summary="@string/pref_summary1_delete_everything">
+            <Preference
+                android:icon="@drawable/ic_delete_black_24dp"
+                android:key="action_pref_delete_everything"
+                android:title="@string/pref_title2_delete_everything"
+                android:summary="@string/pref_summary2_delete_everything" />
+        </PreferenceScreen>
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

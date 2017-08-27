@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Offline Password Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="category_all">All</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_social">Social</string>
+    <string name="category_banking">Banking</string>
+    <string name="category_unspecified">None</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_copy_username">Copy username</string>
+    <string name="action_copy_password">Copy password</string>
+    <string name="action_copy_notes">Copy notes</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_copy_url">Copy URL</string>
+    <string name="action_open_url">Open URL</string>
+    <string name="action_copy_password_and_open_url">Copy password, open URL</string>
+    <string name="action_copy_password_show_username_and_open_url">Copy password, show username, open URL</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_try_again">Try again</string>
+    <string name="action_delete_everything">DELETE EVERYTHING</string>
+
+    <string name="title_delete">Delete</string>
+    <string name="message_delete">Delete account?</string>
+    <string name="message_delete_done">Account deleted: </string>
+    <string name="message_save_done">Account saved: </string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="url">URL</string>
+    <string name="category">Category</string>
+    <string name="account_name">Account Name</string>
+    <string name="notes">Notes</string>
+
+    <string name="label_skip_fingerprint"><u>Disable fingerprint auth...</u></string>
+
+    <string name="action_search">Search</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="validation_account_name">Account Name is required</string>
+
+    <string name="pref_header_categories">Categories</string>
+    <string name="pref_title_enable_shopping">Enable Shopping category</string>
+    <string name="pref_title_enable_social">Enable Social category</string>
+    <string name="pref_title_enable_banking">Enable Banking category</string>
+
+    <string name="pref_title_enable_custom_category_0">Enable custom category 1</string>
+    <string name="pref_title_enable_custom_category_1">Enable custom category 2</string>
+    <string name="pref_title_enable_custom_category_2">Enable custom category 3</string>
+    <string name="pref_title_enable_custom_category_3">Enable custom category 4</string>
+    <string name="pref_title_enable_custom_category_4">Enable custom category 5</string>
+    <string name="pref_title_enable_custom_category_5">Enable custom category 6</string>
+
+    <string name="pref_title_default_username">Default username for new accounts</string>
+    <string name="pref_summary_default_username">Warning: Default username is saved in Android settings, and is not encrypted!</string>
+
+    <string name="not_enabled">(not enabled)</string>
+
+    <string name="pref_title_custom_category_names">Custom category names</string>
+
+    <string name="pref_title_custom_category">Custom category</string>
+
+    <string name="custom_category_0">Custom category 1</string>
+    <string name="custom_category_1">Custom category 2</string>
+    <string name="custom_category_2">Custom category 3</string>
+    <string name="custom_category_3">Custom category 4</string>
+    <string name="custom_category_4">Custom category 5</string>
+    <string name="custom_category_5">Custom category 6</string>
+
+    <string name="unknown_category">Unknown category</string>
+
+    <string name="pref_title_backup_restore_import_export">Backup / Restore / Import / Export accounts</string>
+    <string name="pref_title_other">Other</string>
+    <string name="pref_title_clipboard">Clipboard settings</string>
+    <string name="pref_title_enable_clipboard">Enable clipboard long-tap options</string>
+    <string name="pref_summary_enable_clipboard">Applies to username and password.\nWarning: Android clipboard is not secure. Other apps might steal your credentials from the clipboard!</string>
+    <string name="pref_title_psw_length">Generated password length</string>
+    <string name="pref_title_show_help">Show help text on app login screen</string>
+    <string name="pref_title_fingerprint_auth">Enable fingerprint authentication</string>
+    <string name="pref_title_backup">Backup accounts</string>
+    <string name="pref_summary_backup">Backup accounts to encrypted file</string>
+    <string name="pref_title_restore">Restore accounts</string>
+    <string name="pref_summary_restore">Restore accounts from encrypted backup file</string>
+    <string name="pref_title_export">Export accounts</string>
+    <string name="pref_summary_export">Export accounts to CSV spreadsheet (not encrypted)</string>
+    <string name="pref_title_import">Import accounts</string>
+    <string name="pref_summary_import">Import accounts from CSV spreadsheet (not encrypted)</string>
+    <string name="pref_title_import_gen">Generate import template</string>
+    <string name="pref_summary_import_gen">Generate CSV spreadsheet template - use this to format accounts for importing from another source</string>
+    <string name="pref_title1_delete_everything">Delete everything</string>
+    <string name="pref_title2_delete_everything">DELETE EVERYTHING</string>
+    <string name="pref_summary1_delete_everything">Delete password DB and all files and settings</string>
+    <string name="pref_summary2_delete_everything">Warning: This cannot be undone!\nDelete password DB, master password, fingerprint key, and all settings.\nNo backup or exported files are deleted.</string>
+    <string name="pref_title_auto_logout">Enable auto-logout</string>
+    <string name="pref_summary_auto_logout">Log out app after 15 minutes of no activity. Change will take effect when you restart app.</string>
+
+    <string name="action_dont_show_help">Don\'t show this again</string>
+    <string name="important_info"><b>Important Information:</b>\n\nAs a security feature, and by design, this app stores your passwords <u>ONLY</u> on this device.\n\n
+        <ul>
+            <li>This app does not have any internet access\n</li>
+            <li>Your passwords are not synchronized with Google or stored in the cloud or online\n</li>
+            <li>This app doesn\'t use Google\'s app &amp; settings backup feature\n</li>
+            <li><u>You have to manually backup your passwords</u> (from the settings menu inside the app)\n</li>
+            <li>If you uninstall this app, all your passwords will be lost\n</li>
+            <li>The Master Password you enter into this app is used to encrypt your passwords. If you lose your master password there is <u>no way</u> to recover your passwords!\n</li>
+            <li>This app is distributed without warranty, under the <a href="https://github.com/app-elation/Offline-Password-Manager/blob/master/LICENSE">MIT license</a>\n</li>
+        </ul>
+    </string>
+
+    <string name="err_incorrect_password">Incorrect password</string>
+    <string name="msg_enter_master_password">Enter master password</string>
+    <string name="msg_create_new">Create a new encrypted password database by entering a master password, and then optionally authorise with fingerprint for quick-access.</string>
+
+    <string name="err_use_hardware">You have not granted this app permission to use the fingerprint hardware</string>
+    <string name="err_lock_scr_security">Device lock-screen security is not enabled. Please enable before trying fingerprint auth again.</string>
+    <string name="err_no_hardware">No fingerprint hardware detected.</string>
+    <string name="err_no_fingerprints">You have not enrolled any fingerprints. View device lock-screen security settings to enrol.</string>
+    <string name="err_key_lost">Fingerprint key was lost due to fingerprint or device setting changes. This is normal. Please re-enter master password.</string>
+    <string name="msg_auth_with_with_fingerprint">Authenticate with fingerprint now...</string>
+    <string name="msg_master_password_auth">Enter master password</string>
+    <string name="err_fingerprint_auth_failed">Fingerprint auth failed - please try again</string>
+    <string name="msg_auth_passed">Fingerprint auth passed!</string>
+    <string name="err_finterprint_auth_failed">Fingerprint auth failed</string>
+    <string name="err_finterprint_auth_failed_retry">\nTap here to try again, or disable fingerprint auth (see link below)</string>
+    <string name="err_finterprint_auth_failed_retry_wait">\nWait a while, then tap here to try again, or disable fingerprint auth (see link below)</string>
+    <string name="msg_8_chars_psw">8 characters minimum</string>
+    <string name="err_no_permission_fingerprint">Unable to get permission to use fingerprint hardware</string>
+    <string name="title_error">Error</string>
+
+    <string name="title_done">Done</string>
+    <string name="msg_import_template">Import template created</string>
+    <string name="msg_export_csv">Accounts exported:</string>
+    <string name="msg_import_csv">Accounts imported:</string>
+    <string name="msg_failed">\nFailed:</string>
+    <string name="msg_backup">Accounts backed up:</string>
+    <string name="msg_restore">Accounts restored:</string>
+    <string name="msg_restore_masterpassword">\nYour master password remains unchanged.</string>
+
+    <string name="title_fingerprint">Fingerprint</string>
+    <string name="msg_fingerprint_change">Change will take effect when you restart app, and you\'ll have to enter master password one more time.</string>
+
+    <string name="title_import_restore_confirm">Overwrite Accounts?</string>
+    <string name="msg_import_restore_confirm">Warning:\nThis action will overwrite all accounts in your DB.\n\nCONFIRM:\nDo you want to overwrite?</string>
+    <string name="action_import_restore_yes">Yes, OVERWRITE</string>
+
+    <string name="title_generic_error">Error</string>
+    <string name="msg_generic_error">Action failed!\n</string>
+
+    <string name="title_backup_psw">Backup File Password</string>
+    <string name="msg_backup_encrypt_psw">Enter a new password to encrypt the backup file, 8 characters minimum.\nThis should not be your master password.</string>
+    <string name="msg_backup_decrypt_psw">Enter password to decrypt the backup file</string>
+
+    <string name="title_invalid_password">Password Invalid</string>
+    <string name="msg_invalid_password">Password for backup file should be at least 8 characters</string>
+
+    <string name="title_delete_everything">Delete everything?</string>
+    <string name="msg_delete_everything">CONFIRM:\nDo you want to delete password DB, master password, and all settings?\nApp will close when complete.</string>
+
+    <string name="msg_done">Done!</string>
+
+</resources>

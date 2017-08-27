@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryTextInverse</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:textColorSecondaryInverse">@color/colorSecondaryTextInverse</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+        <item name="android:titleTextColor">@color/colorPrimaryTextInverse</item>
+    </style>
+
+    <style name="AppTheme.NoTitleBar" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
